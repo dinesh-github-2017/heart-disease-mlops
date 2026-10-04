@@ -1,0 +1,11 @@
+# 10-Day Progress Tracker
+- [ ] Day 1: repo, data download, EDA
+- [ ] Day 2: feature pipeline + two models + CV
+- [ ] Day 3: MLflow tracking + packaging + pinned requirements
+- [ ] Day 4: pytest tests
+- [ ] Day 5: GitHub Actions (green run + deliberate red run)
+- [ ] Day 6: FastAPI + Docker
+- [ ] Day 7: Kubernetes (Minikube / Docker Desktop)
+- [ ] Day 8: Monitoring
+- [ ] Day 9: Report + architecture diagram + screenshots
+- [ ] Day 10: Video, fresh-clone test, submit

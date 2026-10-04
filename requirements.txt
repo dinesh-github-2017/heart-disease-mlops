@@ -1,0 +1,9 @@
+# Day 1 starter list (unpinned). We will pin exact versions on Day 3
+# after everything works: run `pip freeze` and clean it up.
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+requests
