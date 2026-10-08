@@ -1,4 +1,5 @@
 # Heart Disease Risk Prediction - MLOps Assignment 01
+![CI](https://github.com/dinesh-github-2017/heart-disease-mlops/actions/workflows/ci.yml/badge.svg)
 
 ## 1. Overview
 <!-- Problem statement, dataset, what the project does -->
