@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 100
+exclude = .git,__pycache__,.venv,.venv-test,mlruns,notebooks
+per-file-ignores =
+    src/train.py:E402

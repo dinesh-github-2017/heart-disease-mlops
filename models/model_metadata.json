@@ -1,0 +1,37 @@
+{
+  "model": "logreg",
+  "run_id": "ad169c130dca4a4ab5ba7f67bda4b0c7",
+  "params": {
+    "C": "1"
+  },
+  "features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "cp",
+    "restecg",
+    "slope",
+    "thal",
+    "ca",
+    "sex",
+    "fbs",
+    "exang"
+  ],
+  "metrics": {
+    "cv_accuracy": 0.8471,
+    "cv_precision": 0.8768,
+    "cv_recall": 0.7834,
+    "cv_roc_auc": 0.9039,
+    "test_accuracy": 0.8852,
+    "test_precision": 0.8387,
+    "test_recall": 0.9286,
+    "test_roc_auc": 0.9675
+  },
+  "versions": {
+    "python": "3.11.9",
+    "scikit-learn": "1.9.1",
+    "mlflow": "3.16.1"
+  }
+}
