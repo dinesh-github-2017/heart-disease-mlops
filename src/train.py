@@ -168,8 +168,8 @@ def main():
         mlflow.log_artifact(str(meta_path), artifact_path="packaged")
 
     try:
-        #mlflow.register_model(f"runs:/{final['run_id']}/model", REGISTERED_NAME)
-         mlflow.register_model(final["model_uri"], REGISTERED_NAME)
+        # mlflow.register_model(f"runs:/{final['run_id']}/model", REGISTERED_NAME)
+        mlflow.register_model(final["model_uri"], REGISTERED_NAME)
     except Exception as exc:                      # registry is a bonus, don't fail training
         print("Model registration skipped:", exc)
 
